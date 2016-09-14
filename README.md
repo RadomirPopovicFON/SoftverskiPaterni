@@ -18,7 +18,7 @@ Električna gitara je sastavljena od više komponenti. Svaka od tih komponenti i
 
 Jedan od radnika je dobio zadatak da izračuna popust za gitaru. Umesto njega, kao delegiranog zaposlenog, tu operaciju će izvršiti drugi zaposleni. Delegirani će dobiti rezultat, odnosno popust i taj isti popust saopštiti kupcu, tj. Pavlu. U navedenom slučaju koristićemo Proxy patern. Poenta ovog paterna jeste korišćenje posrednika za realizaciju neke operacije. 
 
-<img height="300px" src="dijagrami/proxyVecaRez.png"/><hr/>
+<img height="300px" width="300px" src="dijagrami/proxyVecaRez.png"/><hr/>
 
 Gitara koja će biti kupljena, prethodno mora da prođe kroz 3 vrste servisa. Tek nakon što prođe kroz taj ”lanac” povezanih operacija biće spremna za upotrebu. Radi se o Chain of responsability paternu.
 	
