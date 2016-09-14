@@ -25,6 +25,8 @@ Gitara koja će biti kupljena, prethodno mora da prođe kroz 3 vrste servisa. Te
 <img src="dijagrami/chain.png"/><hr/>
 
 U nekom trenutku, Pavle se ipak zainteresovao za drugu gitaru. Ta gitara ne postoji u radnji. Kako bi mogao da kupi datu gitaru, ona bi trebalo da bude dostupna u njegovoj radnji. Srećom, to stanje može biti promenjeno, s obzirom da se gitara nalazi u radnji u drugom gradu. Pored ta dva stanja, postojala je još mogućnost da te gitare uopšte ne bude na lageru. Sva ta stanja koja se menjaju su elementi State paterna. Što se našeg samog problema tiče, gitara je na kraju kupljena.
+
 <img src="dijagrami/state.png"/><hr/>
+
 Prodavnica muzičke opreme ima deo za prodaju polovnih instrumenata. Taj sektor funkcioniše na sledeći način : Svi koji žele, mogu da se registruju kao pratioci, odnosno subscriber-i, tj. mogu da imaju uvid u sve trenutno raspoložive polovne instrumente. Svi koji nameravaju da prodaju svoj instrument, registruju se isto kao subscriberi, preko menadžera radnje, nakon čega se dodaje njihov  instrument u ponudu. Posle uspešne registracije, generiše se novo obaveštenje i novi presek stanja, koji stiže na mejl svim pratiocima. U pitanju je dakle observer patern.
 <img src="dijagrami/observer.png"/>
