@@ -29,4 +29,4 @@ U nekom trenutku, Pavle se ipak zainteresovao za drugu gitaru. Ta gitara ne post
 <img height="300px" width="600px" src="dijagrami/state.png"/><hr/>
 
 Prodavnica muzičke opreme ima deo za prodaju polovnih instrumenata. Taj sektor funkcioniše na sledeći način : Svi koji žele, mogu da se registruju kao pratioci, odnosno subscriber-i, tj. mogu da imaju uvid u sve trenutno raspoložive polovne instrumente. Svi koji nameravaju da prodaju svoj instrument, registruju se isto kao subscriberi, preko menadžera radnje, nakon čega se dodaje njihov  instrument u ponudu. Posle uspešne registracije, generiše se novo obaveštenje i novi presek stanja, koji stiže na mejl svim pratiocima. U pitanju je dakle observer patern.
-<img height="300px" width="600px" src="dijagrami/observer.png"/>
+<img height="300px" width="600px" src="dijagrami/observerVecaRez.png"/>
