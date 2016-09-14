@@ -10,7 +10,7 @@ Zaposleni u radnji biraju za Pavla gitaru i pojačalo. Nakon biranja Pavle testi
 
 Zaposleni su ipak uvideli da Pavle nema iskustva u sviranju i da bi bolja varijanta bila da proba početničku gitaru. To je bila i konačna odluka, ali ipak sa malim izmenama, odnosno adaptacijom. Delovi gitare biće zamenjeni u odnosu na original. Patern koji će rešiti ovaj problem zove se Adapter patern. 
 
-<img src="dijagrami/adapter.png"/><hr/>
+<img height="100px" src="dijagrami/adapter.png"/><hr/>
 
 Električna gitara je sastavljena od više komponenti. Svaka od tih komponenti ima svoje delove. Konkretno, gitara se sastoji iz tela, vrata i glave. Telo sadrži magnete, tremolo, vrat žice i pragove itd. Preko Composite paterna, opisaćemo sve te komponente. 
 
