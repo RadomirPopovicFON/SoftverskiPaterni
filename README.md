@@ -5,12 +5,12 @@ Svi paterni biće objašnjeni kontinualno kroz primere koji će se nadovezivati.
  
 Zaposleni u radnji biraju za Pavla gitaru i pojačalo. Nakon biranja Pavle testira gitaru i pojačalo. Navedena situacija je predstavljena preko Abstract Factory paterna. U slučaju da gitaru i pojačalo testiraju zaposleni, za Pavla, biće korišćen Builder patern. 
 
-<img src="dijagrami/abstract.png"/>
-<img src="dijagrami/builder.png"/><hr/>
+<img src="dijagrami/abstractVecaRez.png"/>
+<img src="dijagrami/builderVecaRez.png"/><hr/>
 
 Zaposleni su ipak uvideli da Pavle nema iskustva u sviranju i da bi bolja varijanta bila da proba početničku gitaru. To je bila i konačna odluka, ali ipak sa malim izmenama, odnosno adaptacijom. Delovi gitare biće zamenjeni u odnosu na original. Patern koji će rešiti ovaj problem zove se Adapter patern. 
 
-<img height="300px"  width="600px" src="dijagrami/adapter.png"/><hr/>
+<img height="300px"  width="600px" src="dijagrami/adapterVecaRez.png"/><hr/>
 
 Električna gitara je sastavljena od više komponenti. Svaka od tih komponenti ima svoje delove. Konkretno, gitara se sastoji iz tela, vrata i glave. Telo sadrži magnete, tremolo, vrat žice i pragove itd. Preko Composite paterna, opisaćemo sve te komponente. 
 
