@@ -1,5 +1,5 @@
 # SoftverskiPaterni
-Primena 8 paterna (design patterns) na ilustrativnim primerima u programskom jeziku Java
+Primena 8 paterna (design patterns) na ilustrativnim primerima u programskom jeziku Java.
 
 Svi paterni biće objašnjeni kontinualno kroz primere koji će se nadovezivati. Centar događanja jeste prodavnica muzičke opreme. Naše klase će se zvati najčešće po zaposlenima ili po muzičkoj opremi. Sami primeri neće biti previše kompleksni kako bi mogao da se shvati način funkcionisanja paterna.
  
