@@ -9,7 +9,7 @@ Zaposleni u radnji biraju za Pavla gitaru i pojačalo. Nakon biranja Pavle testi
 <img src="dijagrami/abstractIspravka.png"/>
 
 <h2>Builder</h2>
-<img src="dijagrami/builderIspravka.png"/><hr/>
+<img src="dijagrami/BuilderIspravka.png"/><hr/>
 
 Zaposleni su ipak uvideli da Pavle nema iskustva u sviranju i da bi bolja varijanta bila da proba početničku gitaru. To je bila i konačna odluka, ali ipak sa malim izmenama, odnosno adaptacijom. Delovi gitare biće zamenjeni u odnosu na original. Patern koji će rešiti ovaj problem zove se Adapter patern. 
 
