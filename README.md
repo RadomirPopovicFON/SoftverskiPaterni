@@ -6,10 +6,10 @@ Svi paterni biće objašnjeni kontinualno kroz primere koji će se nadovezivati.
 Zaposleni u radnji biraju za Pavla gitaru i pojačalo. Nakon biranja Pavle testira gitaru i pojačalo. Navedena situacija je predstavljena preko Abstract Factory paterna. U slučaju da gitaru i pojačalo testiraju zaposleni, za Pavla, biće korišćen Builder patern. 
 
 <h2>Abstract Factory</h2>
-<img src="dijagrami/abstractVecaRez.png"/>
+<img src="dijagrami/abstractIspravka.png"/>
 
 <h2>Builder</h2>
-<img src="dijagrami/builderVecaRez.png"/><hr/>
+<img src="dijagrami/builderIspravka.png"/><hr/>
 
 Zaposleni su ipak uvideli da Pavle nema iskustva u sviranju i da bi bolja varijanta bila da proba početničku gitaru. To je bila i konačna odluka, ali ipak sa malim izmenama, odnosno adaptacijom. Delovi gitare biće zamenjeni u odnosu na original. Patern koji će rešiti ovaj problem zove se Adapter patern. 
 
