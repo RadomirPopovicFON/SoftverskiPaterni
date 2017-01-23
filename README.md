@@ -1,9 +1,9 @@
-# SoftverskiPaterni
-Primena 8 paterna (design patterns) na ilustrativnim primerima u programskom jeziku Java.
+# Design patterns
+Implementation of 8 design patterns on illustrative examples in Java programming language. Created to be simple to be understood.
 
-Svi paterni biće objašnjeni kontinualno kroz primere koji će se nadovezivati. Centar događanja jeste prodavnica muzičke opreme. Naše klase će se zvati najčešće po zaposlenima ili po muzičkoj opremi. Sami primeri neće biti previše kompleksni kako bi mogao da se shvati način funkcionisanja paterna.
- 
-Zaposleni u radnji biraju za Pavla gitaru i pojačalo. Nakon biranja Pavle testira gitaru i pojačalo. Navedena situacija je predstavljena preko Abstract Factory paterna. U slučaju da gitaru i pojačalo testiraju zaposleni, za Pavla, biće korišćen Builder patern. 
+All examples will be continually exampled using story examples. Center of events is music shop. Our classes are being named by employees or music gear. 
+
+Employees in store are choosing for young kid named Pavle a guitar and an amp. After choosing, Pavle tests guitar and amp. Example described Abstract Factory pattern. In case that guitar and amp are being tested by employees, for Pavle, Builder pattern will be used.
 
 <h2>Abstract Factory</h2>
 <img src="dijagrami/abstractIspravka.png"/>
@@ -11,32 +11,32 @@ Zaposleni u radnji biraju za Pavla gitaru i pojačalo. Nakon biranja Pavle testi
 <h2>Builder</h2>
 <img src="dijagrami/BuilderIspravka.png"/><hr/>
 
-Zaposleni su ipak uvideli da Pavle nema iskustva u sviranju i da bi bolja varijanta bila da proba početničku gitaru. To je bila i konačna odluka, ali ipak sa malim izmenama, odnosno adaptacijom. Delovi gitare biće zamenjeni u odnosu na original. Patern koji će rešiti ovaj problem zove se Adapter patern. 
+Employees concluded that Pavle doesn't have enough experience in playing guitar, so therefore better option would to be to check out a particular beginners guitar. That was a final decision, with small changes, or adaptation. Parts of guitar will be changed and different in comparing to original. Pattern which will solve this issue is called Adapter pattern.
 
 <h2>Adapter</h2>
 <img height="300px"  width="600px" src="dijagrami/adapterVecaRez.png"/><hr/>
 
-Električna gitara je sastavljena od više komponenti. Svaka od tih komponenti ima svoje delove. Konkretno, gitara se sastoji iz tela, vrata i glave. Telo sadrži magnete, tremolo, vrat žice i pragove itd. Preko Composite paterna, opisaćemo sve te komponente. 
+Electrical guitar is being composed by several components. Each of these components has their own parts. To be more precise, guitar has body, neck and head. Body contains magnets, tremolo, string, frets etc. Using Composite patterns each of these parts will be described. 
 
 <h2>Composite</h2>
 <img height="300px"  width="600px"src="dijagrami/compositeVecaRez.png"/><hr/>
 
-Jedan od radnika je dobio zadatak da izračuna popust za gitaru. Umesto njega, kao delegiranog zaposlenog, tu operaciju će izvršiti drugi zaposleni. Delegirani će dobiti rezultat, odnosno popust i taj isti popust saopštiti kupcu, tj. Pavlu. U navedenom slučaju koristićemo Proxy patern. Poenta ovog paterna jeste korišćenje posrednika za realizaciju neke operacije. 
+One of the employees got a task to calculate a discount for guitar. Instead of him, delegated employee, that operation will be done by the other employee. Delegated employee will receive result, discount, which will announce to the buyer, Pavle. In this case we will use Proxy pattern. Point of using this pattern is having proxy for realization of some operation.
 
 <h2>Proxy</h2>
 <img height="300px" width="600px" src="dijagrami/proxyVecaRez.png"/><hr/>
 
-Gitara koja će biti kupljena, prethodno mora da prođe kroz 3 vrste servisa. Tek nakon što prođe kroz taj ”lanac” povezanih operacija biće spremna za upotrebu. Radi se o Chain of responsability paternu.
+Guitar will be bought, but before that, it needs to go through 3 types of service. After that chain of operations, it will be ready for playing. Example of chain of responsability pattern. 
 
 <h2>Chain of responsability</h2>
 <img height="300px"  width="600px"src="dijagrami/chainVecaRez.png"/><hr/>
 
-U nekom trenutku, Pavle se ipak zainteresovao za drugu gitaru. Ta gitara ne postoji u radnji. Kako bi mogao da kupi datu gitaru, ona bi trebalo da bude dostupna u njegovoj radnji. Srećom, to stanje može biti promenjeno, s obzirom da se gitara nalazi u radnji u drugom gradu. Pored ta dva stanja, postojala je još mogućnost da te gitare uopšte ne bude na lageru. Sva ta stanja koja se menjaju su elementi State paterna. Što se našeg samog problema tiče, gitara je na kraju kupljena.
+Pavle decided to check out other guitar, which is currently not in the shop. To buy that guitar, guitar needs to be available in his shop. Luckily that condition, or state, can be changed, since the guitar is at that moment in other shop in other city. With that two states, there was a posibility for that guitar not to be available at all. All these states are being described using State pattern. In conclusion, guitar has been bought. 
 
 <h2>State</h2>
 <img height="300px" width="600px" src="dijagrami/stateVecaRez.png"/><hr/>
 
-Prodavnica muzičke opreme ima deo za prodaju polovnih instrumenata. Taj sektor funkcioniše na sledeći način : Svi koji žele, mogu da se registruju kao pratioci, odnosno subscriber-i, tj. mogu da imaju uvid u sve trenutno raspoložive polovne instrumente. Svi koji nameravaju da prodaju svoj instrument, registruju se isto kao subscriberi, preko menadžera radnje, nakon čega se dodaje njihov  instrument u ponudu. Posle uspešne registracije, generiše se novo obaveštenje i novi presek stanja, koji stiže na mejl svim pratiocima. U pitanju je dakle observer patern.
+And lastly, shop has part for selling used instruments. That sector functionates like this: Everyone who wants, can be registered as subscriber, and can look up to all available used instruments. Everyone who intends to sell their instruments, register themselves as subscribers, through store manager. After that their instrument is being added as available for buying. After succesful registration, new notification is being generated as well as complete and precise offer, which arrives through email to all subscribers. This is an implementation of an Observer pattern.
 
 <h2>Observer</h2>
 <img height="300px" width="600px" src="dijagrami/observerVecaRez.png"/>
